@@ -1,7 +1,8 @@
 import { authService, dbService } from "myFirebase";
-import React, { useEffect } from "react";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
-import { useState } from "react/cjs/react.development";
+import React, { useEffect, useState } from "react";
+import { useHistory } from "react-router-dom";
+
+
 
 const Profile = ({userObj, refreshUser}) => {
 
